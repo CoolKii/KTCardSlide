@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4483EAFB24AF13C500830D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EAFA24AF13C500830D31 /* AppDelegate.m */; };
+		4483EAFE24AF13C500830D31 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EAFD24AF13C500830D31 /* SceneDelegate.m */; };
+		4483EB0124AF13C500830D31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB0024AF13C500830D31 /* ViewController.m */; };
+		4483EB0424AF13C500830D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4483EB0224AF13C500830D31 /* Main.storyboard */; };
+		4483EB0624AF13C700830D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4483EB0524AF13C700830D31 /* Assets.xcassets */; };
+		4483EB0924AF13C700830D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4483EB0724AF13C700830D31 /* LaunchScreen.storyboard */; };
+		4483EB0C24AF13C700830D31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB0B24AF13C700830D31 /* main.m */; };
+		4483EB1524AF141100830D31 /* KTSlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB1424AF141100830D31 /* KTSlideVC.m */; };
+		4483EB1F24AF142600830D31 /* KTPPCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB1824AF142600830D31 /* KTPPCardView.m */; };
+		4483EB2024AF142600830D31 /* KTPPCardItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB1C24AF142600830D31 /* KTPPCardItemCell.m */; };
+		4483EB2124AF142600830D31 /* KTPPLvYouModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB1D24AF142600830D31 /* KTPPLvYouModel.m */; };
+		4483EB2224AF142600830D31 /* KTPPCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483EB1E24AF142600830D31 /* KTPPCardViewCell.m */; };
+		4483EB2424AF1E2B00830D31 /* jsonData.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4483EB2324AF1E2B00830D31 /* jsonData.geojson */; };
+		D1B098008309E2DBA230D622 /* Pods_KTCardSlide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C182A68E0461F0A36BB2B /* Pods_KTCardSlide.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		377C182A68E0461F0A36BB2B /* Pods_KTCardSlide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTCardSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4483EAF624AF13C500830D31 /* KTCardSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCardSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4483EAF924AF13C500830D31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4483EAFA24AF13C500830D31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4483EAFC24AF13C500830D31 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4483EAFD24AF13C500830D31 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4483EAFF24AF13C500830D31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4483EB0024AF13C500830D31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4483EB0324AF13C500830D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4483EB0524AF13C700830D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4483EB0824AF13C700830D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4483EB0A24AF13C700830D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4483EB0B24AF13C700830D31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4483EB1324AF141100830D31 /* KTSlideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTSlideVC.h; sourceTree = "<group>"; };
+		4483EB1424AF141100830D31 /* KTSlideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTSlideVC.m; sourceTree = "<group>"; };
+		4483EB1724AF142600830D31 /* KTPPCardItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPPCardItemCell.h; sourceTree = "<group>"; };
+		4483EB1824AF142600830D31 /* KTPPCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPPCardView.m; sourceTree = "<group>"; };
+		4483EB1924AF142600830D31 /* KTPPLvYouModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPPLvYouModel.h; sourceTree = "<group>"; };
+		4483EB1A24AF142600830D31 /* KTPPCardViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPPCardViewCell.h; sourceTree = "<group>"; };
+		4483EB1B24AF142600830D31 /* KTPPCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPPCardView.h; sourceTree = "<group>"; };
+		4483EB1C24AF142600830D31 /* KTPPCardItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPPCardItemCell.m; sourceTree = "<group>"; };
+		4483EB1D24AF142600830D31 /* KTPPLvYouModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPPLvYouModel.m; sourceTree = "<group>"; };
+		4483EB1E24AF142600830D31 /* KTPPCardViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPPCardViewCell.m; sourceTree = "<group>"; };
+		4483EB2324AF1E2B00830D31 /* jsonData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = jsonData.geojson; sourceTree = "<group>"; };
+		60B784948B516CB5AAC96E13 /* Pods-KTCardSlide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCardSlide.release.xcconfig"; path = "Target Support Files/Pods-KTCardSlide/Pods-KTCardSlide.release.xcconfig"; sourceTree = "<group>"; };
+		B0194A56824FFA7B1859B90D /* Pods-KTCardSlide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTCardSlide.debug.xcconfig"; path = "Target Support Files/Pods-KTCardSlide/Pods-KTCardSlide.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4483EAF324AF13C500830D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B098008309E2DBA230D622 /* Pods_KTCardSlide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2666F28802F323975208F422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0194A56824FFA7B1859B90D /* Pods-KTCardSlide.debug.xcconfig */,
+				60B784948B516CB5AAC96E13 /* Pods-KTCardSlide.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4483EAED24AF13C500830D31 = {
+			isa = PBXGroup;
+			children = (
+				4483EAF824AF13C500830D31 /* KTCardSlide */,
+				4483EAF724AF13C500830D31 /* Products */,
+				2666F28802F323975208F422 /* Pods */,
+				A0026AA6A0913C0322BEF098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4483EAF724AF13C500830D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4483EAF624AF13C500830D31 /* KTCardSlide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4483EAF824AF13C500830D31 /* KTCardSlide */ = {
+			isa = PBXGroup;
+			children = (
+				4483EB1624AF142600830D31 /* KTSlidView */,
+				4483EB1224AF13F200830D31 /* SlideVC */,
+				4483EAF924AF13C500830D31 /* AppDelegate.h */,
+				4483EAFA24AF13C500830D31 /* AppDelegate.m */,
+				4483EAFC24AF13C500830D31 /* SceneDelegate.h */,
+				4483EAFD24AF13C500830D31 /* SceneDelegate.m */,
+				4483EAFF24AF13C500830D31 /* ViewController.h */,
+				4483EB0024AF13C500830D31 /* ViewController.m */,
+				4483EB0224AF13C500830D31 /* Main.storyboard */,
+				4483EB0524AF13C700830D31 /* Assets.xcassets */,
+				4483EB0724AF13C700830D31 /* LaunchScreen.storyboard */,
+				4483EB0A24AF13C700830D31 /* Info.plist */,
+				4483EB0B24AF13C700830D31 /* main.m */,
+				4483EB2324AF1E2B00830D31 /* jsonData.geojson */,
+			);
+			path = KTCardSlide;
+			sourceTree = "<group>";
+		};
+		4483EB1224AF13F200830D31 /* SlideVC */ = {
+			isa = PBXGroup;
+			children = (
+				4483EB1324AF141100830D31 /* KTSlideVC.h */,
+				4483EB1424AF141100830D31 /* KTSlideVC.m */,
+			);
+			path = SlideVC;
+			sourceTree = "<group>";
+		};
+		4483EB1624AF142600830D31 /* KTSlidView */ = {
+			isa = PBXGroup;
+			children = (
+				4483EB1B24AF142600830D31 /* KTPPCardView.h */,
+				4483EB1824AF142600830D31 /* KTPPCardView.m */,
+				4483EB1A24AF142600830D31 /* KTPPCardViewCell.h */,
+				4483EB1E24AF142600830D31 /* KTPPCardViewCell.m */,
+				4483EB1724AF142600830D31 /* KTPPCardItemCell.h */,
+				4483EB1C24AF142600830D31 /* KTPPCardItemCell.m */,
+				4483EB1924AF142600830D31 /* KTPPLvYouModel.h */,
+				4483EB1D24AF142600830D31 /* KTPPLvYouModel.m */,
+			);
+			path = KTSlidView;
+			sourceTree = "<group>";
+		};
+		A0026AA6A0913C0322BEF098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377C182A68E0461F0A36BB2B /* Pods_KTCardSlide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4483EAF524AF13C500830D31 /* KTCardSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4483EB0F24AF13C700830D31 /* Build configuration list for PBXNativeTarget "KTCardSlide" */;
+			buildPhases = (
+				C39ECDB3539D29494CF9D1E6 /* [CP] Check Pods Manifest.lock */,
+				4483EAF224AF13C500830D31 /* Sources */,
+				4483EAF324AF13C500830D31 /* Frameworks */,
+				4483EAF424AF13C500830D31 /* Resources */,
+				AE0414A2810C9C60933B35A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTCardSlide;
+			productName = KTCardSlide;
+			productReference = 4483EAF624AF13C500830D31 /* KTCardSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4483EAEE24AF13C500830D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kevin Tan";
+				TargetAttributes = {
+					4483EAF524AF13C500830D31 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4483EAF124AF13C500830D31 /* Build configuration list for PBXProject "KTCardSlide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4483EAED24AF13C500830D31;
+			productRefGroup = 4483EAF724AF13C500830D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4483EAF524AF13C500830D31 /* KTCardSlide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4483EAF424AF13C500830D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4483EB0924AF13C700830D31 /* LaunchScreen.storyboard in Resources */,
+				4483EB0624AF13C700830D31 /* Assets.xcassets in Resources */,
+				4483EB0424AF13C500830D31 /* Main.storyboard in Resources */,
+				4483EB2424AF1E2B00830D31 /* jsonData.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE0414A2810C9C60933B35A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTCardSlide/Pods-KTCardSlide-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTCardSlide/Pods-KTCardSlide-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTCardSlide/Pods-KTCardSlide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39ECDB3539D29494CF9D1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTCardSlide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4483EAF224AF13C500830D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4483EB0124AF13C500830D31 /* ViewController.m in Sources */,
+				4483EAFB24AF13C500830D31 /* AppDelegate.m in Sources */,
+				4483EB2224AF142600830D31 /* KTPPCardViewCell.m in Sources */,
+				4483EB2124AF142600830D31 /* KTPPLvYouModel.m in Sources */,
+				4483EB1524AF141100830D31 /* KTSlideVC.m in Sources */,
+				4483EB1F24AF142600830D31 /* KTPPCardView.m in Sources */,
+				4483EB2024AF142600830D31 /* KTPPCardItemCell.m in Sources */,
+				4483EB0C24AF13C700830D31 /* main.m in Sources */,
+				4483EAFE24AF13C500830D31 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4483EB0224AF13C500830D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4483EB0324AF13C500830D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4483EB0724AF13C700830D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4483EB0824AF13C700830D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4483EB0D24AF13C700830D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4483EB0E24AF13C700830D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4483EB1024AF13C700830D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0194A56824FFA7B1859B90D /* Pods-KTCardSlide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GY94NR5KF;
+				INFOPLIST_FILE = KTCardSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo.new.KTCardSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4483EB1124AF13C700830D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B784948B516CB5AAC96E13 /* Pods-KTCardSlide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GY94NR5KF;
+				INFOPLIST_FILE = KTCardSlide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.photo.new.KTCardSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4483EAF124AF13C500830D31 /* Build configuration list for PBXProject "KTCardSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4483EB0D24AF13C700830D31 /* Debug */,
+				4483EB0E24AF13C700830D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4483EB0F24AF13C700830D31 /* Build configuration list for PBXNativeTarget "KTCardSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4483EB1024AF13C700830D31 /* Debug */,
+				4483EB1124AF13C700830D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4483EAEE24AF13C500830D31 /* Project object */;
+}
