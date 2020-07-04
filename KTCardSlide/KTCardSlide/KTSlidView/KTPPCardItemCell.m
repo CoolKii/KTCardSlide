@@ -120,6 +120,7 @@
     self.showModel = model;
     NSString * the_ShowIMg = model.photo;
 //    [self.topImgView sd_setImageWithURL:[NSURL URLWithString:ImageURL(the_ShowIMg)] placeholderImage:[UIImage imageNamed:PlaceHoldImage]];
+    self.topImgView.image = [UIImage imageNamed:the_ShowIMg];
 //    [self.topImgView sd_setImageWithURL:[NSURL URLWithString:ImageURL(the_ShowIMg)]];
     self.showImgV = self.topImgView;//
     NSString * name = [NSString stringWithFormat:@"%@",model.userName];

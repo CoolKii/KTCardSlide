@@ -14,14 +14,34 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaI-fA-Xlf">
+                                <rect key="frame" x="132" y="423" width="150" height="50"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Bco-Yi-JAp"/>
+                                    <constraint firstAttribute="width" constant="150" id="N5y-Qd-fer"/>
+                                </constraints>
+                                <state key="normal" title="卡片左右翻滚">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.95686274510000002" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="left_right_slide_btn_Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7y5-jK-G7O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FaI-fA-Xlf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r41-pu-oa2"/>
+                            <constraint firstItem="FaI-fA-Xlf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xZN-1B-rbR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="HM4-ec-hN4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="131"/>
+            <point key="canvasLocation" x="973.91304347826099" y="130.58035714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EP9-fz-puS">

@@ -40,21 +40,25 @@ static NSString * const ktCardCellId = @"KT_CardCellId";
     [self.view addSubview:self.cardView];
     
     UIButton * leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    leftBtn.frame = CGRectMake(80, SCREEN_Height - 164, 50, 30);
+    leftBtn.frame = CGRectMake(80, SCREEN_Height - 164, 75, 75);
+    leftBtn.tag = 10001;
     [leftBtn addTarget:self action:@selector(btnClickMedth:) forControlEvents:UIControlEventTouchUpInside];
-    [leftBtn setTitle:@"左翻" forState:UIControlStateNormal];
+//    [leftBtn setTitle:@"左翻" forState:UIControlStateNormal];
+    [leftBtn setBackgroundImage:[UIImage imageNamed:@"btn_left"] forState:UIControlStateNormal];
     [self.view addSubview:leftBtn];
     
     UIButton * rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    rightBtn.frame = CGRectMake(SCREEN_Width - 50 - 80, SCREEN_Height - 164, 50, 30);
+    rightBtn.frame = CGRectMake(SCREEN_Width - 75 - 80, SCREEN_Height - 164, 75, 75);
+    rightBtn.tag = 10002;
     [rightBtn addTarget:self action:@selector(btnClickMedth:) forControlEvents:UIControlEventTouchUpInside];
-    [rightBtn setTitle:@"右翻" forState:UIControlStateNormal];
+//    [rightBtn setTitle:@"右翻" forState:UIControlStateNormal];
+    [rightBtn setBackgroundImage:[UIImage imageNamed:@"btn_right"] forState:UIControlStateNormal];
     [self.view addSubview:rightBtn];
     
 }
 
 - (void)btnClickMedth:(UIButton*)btn{
-    if ([btn.titleLabel.text containsString:@"左"]) {
+    if (btn.tag == 10001) {
         [self.cardView removeTopCardViewFromSwipe:KTPPCardViewCellSwipeDirectionLeft];
     }else{
         [self.cardView removeTopCardViewFromSwipe:KTPPCardViewCellSwipeDirectionRight];
@@ -87,6 +91,8 @@ static NSString * const ktCardCellId = @"KT_CardCellId";
 }
 
 - (void)cardView:(KTPPCardView *)cardView didDisplayCell:(KTPPCardViewCell *)cell forRowAtIndex:(NSInteger)index {
+    KTPPLvYouModel * model = [self.dataArray objectAtIndex:index];
+    self.bgImgV.image = [UIImage imageNamed:model.photo];
 }
 
 - (void)cardView:(KTPPCardView *)cardView didMoveCell:(KTPPCardViewCell *)cell forMovePoint:(CGPoint)point {

@@ -36,15 +36,12 @@
     
     
 }
-
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (IBAction)left_right_slide_btn_Click:(id)sender {
     KTSlideVC * slideVC = [[KTSlideVC alloc]init];
     //数组地址不同 但是里面的对象地址相同
     slideVC.dataArray = [NSMutableArray arrayWithArray:self.modelArr];
     [self.navigationController pushViewController:slideVC animated:YES];
 }
-
 
 - (id)getJsonDataJsonname:(NSString *)jsonname{
     NSString *path = [[NSBundle mainBundle] pathForResource:jsonname ofType:@"geojson"];

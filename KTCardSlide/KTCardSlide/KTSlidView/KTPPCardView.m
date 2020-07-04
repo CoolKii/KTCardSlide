@@ -33,7 +33,6 @@ static int moveCount = 0;//!< 记录翻页次数
 @implementation KTPPCardView
 
 - (UIView *)containerView {
-    
     if (!_containerView) {
         _containerView = [[UIView alloc] initWithFrame:self.bounds];
         _containerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
